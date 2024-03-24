@@ -1,27 +1,17 @@
 # AngularHttpRxjs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.
+The project, in Angular + Express, explore methodologies of Http request with RxJs, 
+with focus in situations in which request cancellation can happen or might be beneficial.
 
-## Development server
+Consider a scenario in which a user clicking a button, usually
+that triggers an HTTP request or, for example, navigating away from a page 
+and we want to avoid unnecessary Http request in order to improve performance and also user experience.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Run project
 
-## Code scaffolding
+- `npm run server` run minimal Express server on port 3000
+- `npm run start` run Angular frontend application
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+https://www.angularaddicts.com/p/unlock-the-power-of-http-request-cancellation
+https://github.com/gergelyszerovay/angular-http-request-cancellation-rxjs/tree/main

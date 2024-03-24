@@ -1,0 +1,20 @@
+<div>
+  <h1>http-req-base-rxjs</h1>
+  <ul>
+    <li>
+      <button (click)="getData('data/3000')">Req 3sec.</button>
+    </li>
+    <li>
+      <button (click)="getData('data/6000')">Req 6sec.</button>
+    </li>
+    <li>
+      <button (click)="getData('error')">Error</button>
+    </li>
+    <li>
+      <button (click)="cancelAllRequests()">Cancel</button>
+    </li>
+  </ul>
+  <p *ngIf="!!message$">
+    <span>{{ message$.value }}</span>
+  </p>
+</div>
