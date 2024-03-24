@@ -11,7 +11,3 @@ and we want to avoid unnecessary Http request in order to improve performance an
 
 - `npm run server` run minimal Express server on port 3000
 - `npm run start` run Angular frontend application
-
-
-https://www.angularaddicts.com/p/unlock-the-power-of-http-request-cancellation
-https://github.com/gergelyszerovay/angular-http-request-cancellation-rxjs/tree/main
